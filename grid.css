@@ -6,6 +6,8 @@
     flex-wrap: wrap; /* This will become necessary to allow our flex boxes to stack in responsive mode */
 }
 
+
+
 /* Small and up columns */
 
 /* If an element needs all twelve columns, then its width is 100%. Easy. */
@@ -95,6 +97,22 @@
       width: 8.333%;
   }
 
+  /*other changes*/
+    .design-eg{
+      margin: 0 auto;
+      flex-flow: column;
+    }
+      /*take away the margins so that the design examples
+        fit on each row*/
+        /*Also change the type of flow to column so that
+        they aren't stacked anymore*/
+      .design-eg .design-icon{
+        width: initial;
+      }
+        /*need to reset the width so that
+          the icons are not off-center*/
+
+
 }
 
 
@@ -143,5 +161,17 @@
   .col-large-1 {
       width: 8.333%;
   }
+
+
+  /*other changes*/
+
+
+  .hero-content{
+    align-items: flex-start;
+    text-align: start;
+  }
+    /*make our hero-content in our header align
+      at the start instead of the center.
+      Also override the text-align center*/
 
 }

@@ -3,12 +3,13 @@
 <head>
 	<meta charset="UTF-8">
 	<title>Template00</title>
+	<meta name="viewport" content="width=device-width,initial-scale=1.0">
 	<link rel="stylesheet" type="text/css" href="styles1.css">
+	<link rel="stylesheet" type="text/css" href="grid.css">
 </head>
 <body>
-	<section class="hero">
-		
-			<div class="hero-content flex-parent col">
+	<header class="hero row">
+			<div class="hero-content flex-parent col col-small-12">
 				<h1>Notify</h1>
 				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veritatis, esse!</p>
 				<div class="hero-icons flex-parent">
@@ -36,53 +37,78 @@
 			</div>
 			<img src="http://www.paredownhome.com/wp-content/uploads/2016/07/post-background-placeholder.jpg" alt="relaxing vista">
 		
-	</section>
-	<!-- end of hero -->
+	</header>
+	<!-- end of hero header-->
 
-	<section class="design-content">
+	<section class="design-content row">
 		<content class="design flex-parent">
-			<div class="design-eg flex-parent col">
-				<div class="design-icon">
+			<div class="design-eg flex-parent col-small-12 col-medium-6 col-large-3">
+				<div class="design-icon col-small-3">
 					<a href="#">
 						<div class="icon flex-parent">
 							<i class="fa fa-leaf" aria-hidden="true"></i>
 						</div>
 					</a>
 				</div>
-				<h2>Editable Theme</h2>
-				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque, iure!</p>
+
+				<div class="design-text col-small-6">
+					<h2>Editable Theme</h2>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque, iure!</p>
+				</div>
 			</div>
 				<!-- end of design-eg 1st -->
-			<div class="design-eg flex-parent col">
-				<div class="design-icon">
+			<div class="design-eg flex-parent col-small-12 col-medium-6 col-large-3">
+				<div class="design-icon col-small-3">
 					<a href="#">
 						<div class="icon flex-parent">
 							<i class="fa fa-star" aria-hidden="true"></i>
 						</div>
 					</a>
 				</div>
-				<h2>Flat Design</h2>
-				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae, veniam?</p>
+
+				<div class="design-text col-small-6">
+					<h2>Flat Design</h2>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae, veniam?</p>
+				</div>
 			</div>
 				<!-- end of design-eg 2nd -->
-			<div class="design-eg flex-parent col">
-				<div class="design-icon">
+			<div class="design-eg flex-parent col-small-12 col-medium-6 col-large-3">
+				<div class="design-icon col-small-3">
 					<a href="#">
 						<div class="icon flex-parent">
 							<i class="fa fa-globe" aria-hidden="true"></i>
 						</div>
 					</a>
 				</div>
-				<h2>Reach your Audience</h2>
-				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perferendis, molestiae.</p>
+
+				<div class="design-text col-small-6">
+					<h2>Reach your Audience</h2>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perferendis, molestiae.</p>
+				</div>
 			</div>
 				<!-- end of design-eg 3rd -->
+
+			<div class="design-eg flex-parent col-small-12 col-medium-6 col-large-3">
+				<div class="design-icon col-small-3">
+					<a href="#">
+						<div class="icon flex-parent">
+							<i class="fa fa-heart" aria-hidden="true"></i>
+						</div>
+					</a>
+				</div>
+
+				<div class="design-text col-small-6">
+					<h2>Blah Blah</h2>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae, veniam?</p>
+				</div>
+			</div>
+				<!-- end of design-eg 4th -->
 		</content>
 	</section>
 		<!-- end of section, design -->
 
 	<section class="update">
-		
+		<content class="row">
 			<div class="update-content flex-parent">
 				<div class="update-text flex-parent col">
 					<h2>Get Notified of Any Updates!</h2>
@@ -99,12 +125,12 @@
 					<video src="https://s3-us-west-2.amazonaws.com/coverr/mp4/Tropical.mp4" muted controls></video>
 				</div>
 			</div>
-		
+		</content>
 	</section>
 		<!-- end of section, update -->
 
-	<section class="feedback flex-parent col">
-		
+	<section class="feedback row">
+		<content class="flex-parent col">
 			<div class="quote flex-parent col">
 				<blockquote>"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tenetur aut fugit, qui minus cupiditate, rem."</blockquote>
 				<p>John Doe</p>
@@ -148,7 +174,7 @@
 			</div>
 			<!-- end of contact div -->
 		
-			
+		</content>
 	</section>
 		<!-- end of section feedback -->
 
