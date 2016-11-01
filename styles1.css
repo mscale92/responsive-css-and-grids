@@ -122,6 +122,7 @@ li{
 .design{
 	flex-flow: row wrap;
 	text-align: center;
+	align-items: baseline;
 }
 
 	.design-eg{
