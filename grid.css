@@ -97,72 +97,6 @@
       width: 8.333%;
   }
 
-  /*other changes*/
-    .design-eg{
-      margin: 0 auto;
-      flex-flow: column;
-    }
-      /*take away the margins so that the design examples
-        fit on each row*/
-        /*Also change the type of flow to column so that
-        they aren't stacked anymore*/
-      .design-eg .design-icon{
-        width: initial;
-      }
-        /*need to reset the width so that
-          the icons are not off-center*/
-
-    .update-content{
-      flex-flow: row;
-    }
-
-      .update-video{
-        order: 0;
-        margin-left: 1em;
-      }
-        /*reset the order so that the video appears
-        on the righthand side*/
-
-      .update-text h2{
-          margin-top: 0;
-        }
-        /*take away the top margin so that our
-        h2 aligns perfectly with our video*/
-
-      .update-text p{
-        max-width: 60%;
-      }
-
-
-  .feedback-imgs{
-    flex-flow: row wrap;
-
-  }
-
-    .feedback-imgs img{
-      margin: 0 0.25em;
-    }
-
-  .contact-icons{
-    flex-flow: row wrap;
-  }
-
-    .contact-icons .icon{
-      height: 50px;
-      width: 50px;
-
-      margin: 0 .5em;
-    }
-
-  .footer-links{
-    flex-flow: row;
-  }
-
-    .footer-links a{
-      margin: 0 .5em;
-    }
-
-
 }
 /*end of medium*/
 
@@ -210,23 +144,6 @@
   /* We'll almost NEVER use this */
   .col-large-1 {
       width: 8.333%;
-  }
-
-
-  /*other changes*/
-
-
-  .hero-content{
-    align-items: flex-start;
-    text-align: start;
-  }
-    /*make our hero-content in our header align
-      at the start instead of the center.
-      Also override the text-align center*/
-
-  .update-text{
-    align-items: flex-start;
-    text-align: left;
   }
 
 }
